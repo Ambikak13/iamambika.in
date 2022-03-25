@@ -1,0 +1,111 @@
+body{
+    background-color: black;
+    color: white;
+}
+.mainclass{
+    color: white;
+    padding: 5px;
+    box-sizing: border-box;
+    text-align: center;
+    border: black;
+    font-size: x-large;
+}
+.img{
+    align-items: center;
+    padding-top: 5px;
+    padding-left: 505px;
+}
+.aboutme{
+    text-align: center;
+    font-size: 20px;
+}
+.s1,.s2,.s3,.s4{
+    float:left;
+    padding-left: 30px;
+    padding-right: 200px;
+    align-items: center;
+    font-size: 30px;
+}
+a:hover{
+    color:cornsilk;
+}
+a:active{
+    color:violet;
+}
+a:visited{
+    color: palevioletred;
+}
+.skill{
+    background-image: url("pic3.jpg");
+   width:3350px;
+   height:800px;
+    background-position: center;
+}
+.skill table{
+    font-size: xx-large;
+    color:black;
+}
+.edu h4{
+    text-decoration: underline;
+}
+.edu{
+    font-size: xx-large;
+    color:black;
+}
+.s0{
+    font-size: 30px;
+   padding-left: 60px;
+
+}
+.cnt{
+    background-image: url("bck.jpg");
+    width:1250px;
+    height:800px;
+}
+.cnt p{
+    font-size: 20px;
+    background-color: cadetblue;
+    color: black;
+    text-align: center;
+}
+.cnt h4,h3{
+    font-weight: 200;
+    color: black;
+    text-align: center;
+    
+}
+
+.cnt h1{
+    font-weight: 200;
+    color: black;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: burlywood;
+}
+
+.btn{
+    font-size: x-large;
+    color: black;
+    text-align: center;
+    padding-left: 30px;
+}
+.cn{
+    padding:10px;
+    padding-bottom: 4px;
+    text-align: center;
+}
+.cn st{
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 200px;
+}
+.back{
+    color: white;
+    font-size: 30px;
+    text-align: left;
+}
+.hm{
+    color: white;
+    font-size: 30px;
+    text-align: right;
+}

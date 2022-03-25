@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>iamambika</title>
+        <link rel="stylesheet" href="stylesheet.css">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+    </head>
+    <body>
+        <form method="POST">
+            <table border="1px" align="center">
+                <h1><center>CONTACT INFO</center></h1>
+                <tr>
+                    <th>Email</th>
+                    <th>ambikahathwar@gmail.com</th>
+                </tr>
+                <tr>
+                    <th>Linkdin</th>
+                    <th><a href="https://www.linkedin.com/in/ambika-k-a34081233">Ambika</a></th>
+                </tr>
+                <tr>
+                    <th>Instagram</th>
+                    <th><a href="https://www.instagram.com/ambiikaa._/">ambiikaa._</a></th>
+                </tr>
+            </table><br>
+            <div class="cn">
+            <input type="text" id="name" style="width:50%; height:50%;" placeholder="Your Name" required ><br><br>
+            <input type="email" id="mail" style="width:50%; height:50%;" placeholder="Your Email" required><br><br>
+            <input type="text" id="sub" style="width:50%; height:50%;" placeholder="Write a Subject" required><br><br>
+            <textarea input type="text" id="msg" style="width: 50%;height:50%;"  placeholder="Your message" required></textarea> 
+            <div class="st">
+            <input type="button" value="submit" onclick="savedata()"></div>
+            <div class="back">
+                <a href="service.html">---- Back </a><br>
+            </div>
+            <div class="hm">
+                <a href="index.html" style="align-items: right;">Home</a>
+            </div>
+        </div>
+        </form>
+    </body>
+    <script>
+       function savedata(){
+           let name,mail,sub,msg;
+           name=document.getElementById("name").value;
+           mail=document.getElementById("mail").value;
+           sub=document.getElementById("sub").value;
+           msg=document.getElementById("msg").value;
+           localStorage.setItem("name",name);
+           localStorage.setItem("mail",mail);
+           localStorage.setItem("sub",sub);
+           localStorage.setItem("msg",msg);
+           alert("thanks for your review")
+        }
+    </script>
+</html>
